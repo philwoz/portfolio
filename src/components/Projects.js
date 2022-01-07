@@ -14,9 +14,9 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            At codenation I gained to skills to build full stack applications using the MERN stack and recently I have
+            been working on diversifying my web development skills by learning and creating
+            projects with Python using frameworks such as Flask and Django.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
