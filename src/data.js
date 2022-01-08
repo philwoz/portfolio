@@ -8,28 +8,28 @@ export const projects = [
     link: "https://philwoz.github.io/statApp/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Django Market",
+    subtitle: "Django and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://philwoz.github.io/statApp/",
+    image: "./django.gif",
+    link: "http://wwoozz.pythonanywhere.com/home/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Restaurants Review",
+    subtitle: "React and mongoDB",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://philwoz.github.io/statApp/",
+    image: "./merncode.gif",
+    link: "https://github.com/philwoz/restaurants",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Flask Market",
+    subtitle: "Flask and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://philwoz.github.io/statApp/",
+    image: "./flask.gif",
+    link: "https://github.com/philwoz/FlaskMarket",
   },
 ];
 
