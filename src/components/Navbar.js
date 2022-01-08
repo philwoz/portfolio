@@ -28,7 +28,7 @@ export default function Navbar() {
                     <a href="#skills" className="mr-5 hover:text-white">
                       Skills
                     </a>
-                    <a href="#testimonials" className="mr-5 hover:text-white">
+                    <a href="./new_cv_cn.pdf" className="mr-5 hover:text-white">
                       C.V
                     </a>
                     <a
@@ -117,7 +117,7 @@ export default function Navbar() {
                     Skills
                   </a>
                   <a
-                    href="#testimonials"
+                    href="./new_cv_cn.pdf"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Cv

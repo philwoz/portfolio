@@ -7,18 +7,25 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container px-5 py-5 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            At codenation I gained to skills to build full stack applications using the MERN stack and recently I have
+            At codenation I gained the skills to build full stack applications using the MERN stack and recently I have
             been working on diversifying my web development skills by learning and creating
             projects with Python using frameworks such as Flask and Django.
           </p>
         </div>
+        <div className="flex flex-col justify-center pb-6">
+            <a
+              href="https://github.com/philwoz"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-center text-lg">
+             Check out the code or see more projects on my GitHub page.
+            </a>
+          </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a

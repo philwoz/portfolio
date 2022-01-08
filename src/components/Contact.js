@@ -3,52 +3,33 @@ import React from "react";
 export default function Contact() {
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap">
-        {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
-            width="100%"
-            height="100%"
-            title="map"
-            className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-          /> */}
-          {/* <div className="bg-gray-900 relative flex flex-wrap p-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                LinkedIn
-              </h2>
-              <a className="text-indigo-400 leading-relaxed">
-              linkedin.com/in/phillip-worrall-b5401a1a1</a>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                worrall.phil@yahoo.co.uk
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                GitHub
-              </h2>
-              <p className="leading-relaxed">https://github.com/philwoz</p>
-            </div>
-          {/* </div> */}
-        {/* </div> */} 
+     <div className="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"> 
+        <h2 className="text-black sm:text-4xl text-3xl pb-8 mb-1 font-medium title-font">
+            Contact Me
+          </h2>
+          <p className="leading-relaxed mb-5">
+            Connect with me on LinkedIn through the link, email me directly at worrall.phil@yahoo.co.uk or fill out the form to contact me.
+          </p>
+          
+       
+         <div className="flex flex-col justify-center">
+            <a
+              href="https://www.linkedin.com/in/phillip-worrall-b5401a1a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Fh%2BtxRxuTj63x%2Bs9WByuKQ%3D%3D"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              LinkedIn
+            </a>
+            {/* <a
+              href="#about"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              Email me
+            </a> */}
+          </div>
+          </div> 
         <form
           netlify
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
-          </h2>
-          <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
@@ -90,6 +71,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </section>
+     </section>
   );
 }
