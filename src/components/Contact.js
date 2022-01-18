@@ -9,7 +9,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Connect with me on LinkedIn through the link, email me directly at worrall.phil@yahoo.co.uk or fill out the form to contact me.
+            Connect with me on LinkedIn through the link, email me directly at worrall.phil@yahoo.co.uk or fill your name, email and message on the form to contact me.
           </p>
           
        
