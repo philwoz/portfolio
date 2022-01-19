@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React and mongoDB",
     description:
       "This full-stack Restaurant review website project built using Javascript, React, Node, Express and MongoDb. My aim was to consolidate and further develop skills I learnt at codenation.",
-    image: "./merncode.gif",
+    image: "./review.gif",
     link: "https://github.com/philwoz/restaurants",
   },
   {
