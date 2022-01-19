@@ -33,7 +33,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Connect with me on LinkedIn through the link, email me directly at worrall.phil@yahoo.co.uk .
+            Connect with me on LinkedIn through the link, email me directly at worrall.phil@yahoo.co.uk.
           </p>
           
        
