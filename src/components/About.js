@@ -25,9 +25,9 @@ export default function About() {
               Contact Me
             </a>
             <a
-              href="#projects"
+               href="https://www.linkedin.com/in/phillip-worrall-b5401a1a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Fh%2BtxRxuTj63x%2Bs9WByuKQ%3D%3D"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Projects
+              LinkedIn
             </a>
           </div>
           <div className="flex justify-center pt-6">
